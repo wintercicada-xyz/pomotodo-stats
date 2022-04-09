@@ -130,8 +130,8 @@ func (handler *getStatsHandler) ServeHTTP(responseWriter http.ResponseWriter, re
 		handler.pomotodoStatsMap[icsURL] = newStats
 
 	}
-	responseWriter.WriteHeader(http.StatusOK)
 	responseWriter.Header().Set("Content-Type", "image/svg+xml")
+	responseWriter.WriteHeader(http.StatusOK)
 	responseWriter.Write(handler.pomotodoStatsMap[icsURL].SVG)
 }
 
