@@ -10,7 +10,7 @@ Generate a calendar heatmap according to your [Pomotodo](https://pomotodo.com) p
 At first, you should get your pomo history link, you can do that by going to [Pomotodo Web](https://pomotodo.com/app/), opening Preferences, selecting Subscribe, and then saving the link of Pomo history.
 ![](/images/pomotodo.png)
 
-After that, you can use the link of Pomo history to get the calendar heatmap by using the link `https://api.wintercicada.xyz/pomotodo-stats/ics=<the-pomo-history-link>`. And then you can get an SVG file.
+After that, you can use the link of Pomo history to get the calendar heatmap by using the link ~~https://api.wintercicada.xyz/pomotodo-stats/ics=<the-pomo-history-link>~~ (unmaintained). And then you can get an SVG file.
 ![](/images/pomotodoHeatmap.svg)
 
 
